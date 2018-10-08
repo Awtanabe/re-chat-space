@@ -1,0 +1,146 @@
+// Place all the styles related to the messages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+}
+.clearfix {
+  content:"";
+  clear: both;
+  display: black;
+}
+
+.side{
+	background-color: gray;
+	height:100vw;
+    width: 300px;
+	
+	float: left
+}
+
+.main{
+	float: left;
+	height: 100px;
+	width: calc(100vw - 300px);
+
+ .main-header{
+     height: 100px;
+     border-bottom:1px solid gray;	
+    .left{
+     float: left;
+     margin-left: 21px;
+     margin-top: 26px;
+      .group-name{
+       color:red;
+       a{
+       	color:black;
+       }
+       }
+       .user-name{
+        margin-top: 15px;
+        font-size:14px;
+        color:#999;
+       }
+    }   
+    .right{
+     float:right;
+     margin-right: 21px;
+     margin-top: 26px;
+     a{
+     	color:black;
+     }
+    }   
+  }
+}
+
+
+.main-message{
+  width: calc(100vw - 300px);
+  height: 100px;
+  // background-color: gray;
+ .container{
+  margin-top: 10px;
+  padding-left: 10px;
+  
+ .name{
+  display:inline-block;
+
+ }
+ .date{
+ 	display: inline-block;
+   font-size: 12px;
+   color:#999;
+ }
+ }
+}
+
+
+
+.side-header{
+  background-color: #090c10;
+  height: 100px;
+  color:white;
+
+  .left{
+   float:left;
+   margin-left: 21px;
+   margin-top: 26px;
+   a{
+   	color:white;
+   }
+  }
+  .right{
+   float:right;
+   margin-right: 21px;
+   margin-top: 26px;
+
+     .make-group{
+      display:inline-block;
+      a{
+      	color:white;
+      }
+     }
+     .edit-user{
+       display:inline-block;
+      a{
+      	color:white;
+      }
+     }
+  }
+}
+
+.side-body{
+  background-color: #2f3e51;
+  width:300px;
+  height: calc(100vw - 100px);
+  .wrapper{
+   padding-left: 15px;
+   padding-top: 20px;
+   height:100px;
+   width:300px;
+   .group-name{
+   a{
+   	color:white;
+   }    
+  }	
+  .group-message{
+   a{
+   	color:white;
+   }
+  }
+  }  
+}
+.footer{
+ position: fixed;
+ bottom: 0;
+ height:90px;
+ width:100%;
+ background-color: gray;
+ .form-box{
+ 	width:100%;
+ 	height: 50px;
+ 	background-color: white;
+ }	
+}
